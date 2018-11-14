@@ -1,0 +1,29 @@
+[+] Running PHP 5.6.38 (apache2handler) on ???
+
+[+] Let's check some functions first:
+[+] Is 'chmod' available? T
+[+] Is 'chown' available? T
+[+] Is 'chgrp' available? T
+[+] Is 'eval' available? F
+[+] Is 'assert' available? T
+[+] Is 'exec' available? T
+[+] Is 'putenv' available? T
+[+] Is 'passthru' available? T
+[+] Is 'system' available? T
+[+] Is 'shell_exec' available? T
+[+] Is 'popen' available? T
+[+] Is 'proc_open' available? T
+[+] Is 'pcntl_exec' available? F
+[+] Is 'fstat' available? T
+
+[+] Script permissions: 0
+
+[+] Open basedir: '/var/www/git_deploy/data:.'
+
+[+] Open basedir permissions:
+[+] '.'	504	0775
+
+[+] Starting server process owner detection:
+[+] POSIX functions are not available -> falling back to a chmod test.
+
+[+] Test passed.

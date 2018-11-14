@@ -1,0 +1,54 @@
+[+] Running PHP 7.0.32-0ubuntu0.16.04.1 (fpm-fcgi) on ???
+
+[+] Let's check some functions first:
+[+] Is 'chmod' available? T
+[+] Is 'chown' available? T
+[+] Is 'chgrp' available? T
+[+] Is 'eval' available? F
+[+] Is 'assert' available? T
+[+] Is 'exec' available? F
+[+] Is 'putenv' available? T
+[+] Is 'passthru' available? F
+[+] Is 'system' available? F
+[+] Is 'shell_exec' available? F
+[+] Is 'popen' available? F
+[+] Is 'proc_open' available? F
+[+] Is 'pcntl_exec' available? F
+[+] Is 'fstat' available? T
+
+[+] Script permissions: 0664
+
+[+] Open basedir: '/var/www/stuchl4n3k/prod:/var/www/stuchl4n3k/tmp:/var/www/stuchl4n3k/stag'
+
+[+] Open basedir permissions:
+[+] '/var/www/stuchl4n3k/prod'	1032	0775
+[+] '/var/www/stuchl4n3k/prod/index.php'	1032	0664
+[+] '/var/www/stuchl4n3k/prod/license.txt'	1032	0664
+[+] '/var/www/stuchl4n3k/prod/readme.html'	1032	0664
+[+] '/var/www/stuchl4n3k/prod/test'	1091	0755
+[+] '/var/www/stuchl4n3k/prod/wp-activate.php'	1032	0664
+[+] '/var/www/stuchl4n3k/prod/wp-admin'	1032	0775
+[+] '/var/www/stuchl4n3k/prod/wp-blog-header.php'	1032	0664
+[+] '/var/www/stuchl4n3k/prod/wp-comments-post.php'	1032	0664
+[+] '/var/www/stuchl4n3k/prod/wp-config-sample.php'	1032	0664
+[+] '/var/www/stuchl4n3k/prod/wp-config.php'	1032	0664
+[+] '/var/www/stuchl4n3k/prod/wp-content'	1032	0775
+[+] '/var/www/stuchl4n3k/prod/wp-cron.php'	1032	0664
+[+] '/var/www/stuchl4n3k/prod/wp-includes'	1032	0775
+[+] '/var/www/stuchl4n3k/prod/wp-links-opml.php'	1032	0664
+[+] '/var/www/stuchl4n3k/prod/wp-load.php'	1032	0664
+[+] '/var/www/stuchl4n3k/prod/wp-login.php'	1032	0664
+[+] '/var/www/stuchl4n3k/prod/wp-mail.php'	1032	0664
+[+] '/var/www/stuchl4n3k/prod/wp-settings.php'	1032	0664
+[+] '/var/www/stuchl4n3k/prod/wp-signup.php'	1032	0664
+[+] '/var/www/stuchl4n3k/prod/wp-trackback.php'	1032	0664
+[+] '/var/www/stuchl4n3k/prod/xmlrpc.php'	1032	0664
+[+] '/var/www/stuchl4n3k/tmp'	1032	0755
+[+] '/var/www/stuchl4n3k/stag'	1032	0775
+
+[+] Starting server process owner detection:
+[+] POSIX functions are not available -> falling back to a chmod test.
+[#] Trying to `chmod 777 /var/www/stuchl4n3k/prod/test`.
+[#] Could not `chmod 777 /var/www/stuchl4n3k/prod/test`.
+
+[+] Test passed.

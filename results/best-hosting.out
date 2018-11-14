@@ -1,0 +1,69 @@
+[+] Running PHP 5.6.38 (cgi-fcgi) on Array
+(
+    [sysname] => Linux
+    [nodename] => wh-srv-007
+    [release] => 4.9.0-0.bpo.6-amd64
+    [version] => #1 SMP Debian 4.9.88-1+deb9u1~bpo8+1 (2018-05-13)
+    [machine] => x86_64
+    [domainname] => (none)
+)
+
+
+[+] Let's check some functions first:
+[+] Is 'chmod' available? T
+[+] Is 'chown' available? T
+[+] Is 'chgrp' available? T
+[+] Is 'eval' available? F
+[+] Is 'assert' available? T
+[+] Is 'exec' available? F
+[+] Is 'putenv' available? T
+[+] Is 'passthru' available? F
+[+] Is 'system' available? F
+[+] Is 'shell_exec' available? F
+[+] Is 'popen' available? F
+[+] Is 'proc_open' available? F
+[+] Is 'pcntl_exec' available? F
+[+] Is 'fstat' available? T
+
+[+] Script permissions: 0664
+
+[+] Open basedir: '/home/user06420/stuchl4n3k.net/www:/home/user06420/stuchl4n3k.net/.tmp:/home/user06420/stuchl4n3k.net/.session'
+
+[+] Open basedir permissions:
+[+] '/home/user06420/stuchl4n3k.net/www'	16420	0751
+[+] '/home/user06420/stuchl4n3k.net/www/favicon.ico'	16420	0644
+[+] '/home/user06420/stuchl4n3k.net/www/gentoo.png'	16420	0644
+[+] '/home/user06420/stuchl4n3k.net/www/hostinfo.php'	16420	0664
+[+] '/home/user06420/stuchl4n3k.net/www/index.php'	16420	0644
+[+] '/home/user06420/stuchl4n3k.net/www/logo.png'	16420	0644
+[+] '/home/user06420/stuchl4n3k.net/.tmp'	16420	0750
+[+] '/home/user06420/stuchl4n3k.net/.session'	16420	0750
+
+[+] Starting server process owner detection:
+[+] Using POSIX functions to compare file and process owner.
+[+] Running as: Array
+(
+    [name] => user06420
+    [passwd] => x
+    [uid] => 16420
+    [gid] => 16420
+    [gecos] => ,,,
+    [dir] => /home/user06420
+    [shell] => /dev/null
+)
+
+[+] Script owner: Array
+(
+    [name] => user06420
+    [passwd] => x
+    [uid] => 16420
+    [gid] => 16420
+    [gecos] => ,,,
+    [dir] => /home/user06420
+    [shell] => /dev/null
+)
+
+
+
+[+] Oh no. This looks bad :( File owner == Process owner
+

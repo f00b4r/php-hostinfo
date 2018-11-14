@@ -1,0 +1,58 @@
+[+] Running PHP 7.2.9-1+0~20180901081133.4+stretch~1.gbpdaac35 (apache2handler) on Array
+(
+    [sysname] => Linux
+    [nodename] => stuchl4n3k
+    [release] => 4.9.0-8-amd64
+    [version] => #1 SMP Debian 4.9.110-3+deb9u4 (2018-08-21)
+    [machine] => x86_64
+    [domainname] => (none)
+)
+
+
+[+] Let's check some functions first:
+[+] Is 'chmod' available? T
+[+] Is 'chown' available? T
+[+] Is 'chgrp' available? T
+[+] Is 'eval' available? F
+[+] Is 'assert' available? T
+[+] Is 'exec' available? T
+[+] Is 'putenv' available? T
+[+] Is 'passthru' available? T
+[+] Is 'system' available? T
+[+] Is 'shell_exec' available? T
+[+] Is 'popen' available? T
+[+] Is 'proc_open' available? T
+[+] Is 'pcntl_exec' available? F
+[+] Is 'fstat' available? T
+
+[+] Script permissions: 0
+
+[+] Open basedir: ''
+
+[+] Starting server process owner detection:
+[+] Using POSIX functions to compare file and process owner.
+[+] Running as: Array
+(
+    [name] => www-data
+    [passwd] => x
+    [uid] => 33
+    [gid] => 33
+    [gecos] => www-data
+    [dir] => /var/www
+    [shell] => /usr/sbin/nologin
+)
+
+[+] Script owner: Array
+(
+    [name] => root
+    [passwd] => x
+    [uid] => 0
+    [gid] => 0
+    [gecos] => root
+    [dir] => /root
+    [shell] => /bin/bash
+)
+
+
+
+[+] Test passed.

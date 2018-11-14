@@ -1,0 +1,79 @@
+[+] Running PHP 5.6.38 (apache2handler) on Array
+(
+    [sysname] => Linux
+    [nodename] => uvirt11
+    [release] => 4.9.0-8-amd64
+    [version] => #1 SMP Debian 4.9.110-3+deb9u6 (2018-10-08)
+    [machine] => x86_64
+    [domainname] => (none)
+)
+
+
+[+] Let's check some functions first:
+[+] Is 'chmod' available? T
+[+] Is 'chown' available? T
+[+] Is 'chgrp' available? T
+[+] Is 'eval' available? F
+[+] Is 'assert' available? T
+[+] Is 'exec' available? T
+[+] Is 'putenv' available? T
+[+] Is 'passthru' available? T
+[+] Is 'system' available? T
+[+] Is 'shell_exec' available? T
+[+] Is 'popen' available? T
+[+] Is 'proc_open' available? T
+[+] Is 'pcntl_exec' available? F
+[+] Is 'fstat' available? T
+
+[+] Script permissions: 0644
+
+[+] Open basedir: '/www/doc/stuchl4n3k.net:/disk2/doc/stuchl4n3k.net:/usr/share/php:/www/tmp:/tmp'
+
+[+] Open basedir permissions:
+[+] '/www/doc/stuchl4n3k.net'	196519	2501
+[+] '/www/doc/stuchl4n3k.net/cti.txt'	196519	0644
+[+] '/www/doc/stuchl4n3k.net/home'	196519	2750
+[+] '/www/doc/stuchl4n3k.net/logs'	196519	0750
+[+] '/www/doc/stuchl4n3k.net/session'	196519	0755
+[+] '/www/doc/stuchl4n3k.net/tmp'	196519	0777
+[+] '/www/doc/stuchl4n3k.net/www'	196519	2755
+[+] '/disk2/doc/stuchl4n3k.net'	196519	2501
+[+] '/disk2/doc/stuchl4n3k.net/cti.txt'	196519	0644
+[+] '/disk2/doc/stuchl4n3k.net/home'	196519	2750
+[+] '/disk2/doc/stuchl4n3k.net/logs'	196519	0750
+[+] '/disk2/doc/stuchl4n3k.net/session'	196519	0755
+[+] '/disk2/doc/stuchl4n3k.net/tmp'	196519	0777
+[+] '/disk2/doc/stuchl4n3k.net/www'	196519	2755
+[+] '/usr/share/php'	0	0755
+[+] '/usr/share/php/active24_info.php'	0	0644
+[+] '/www/tmp'	0	1777
+[+] '/tmp'	0	1777
+
+[+] Starting server process owner detection:
+[+] Using POSIX functions to compare file and process owner.
+[+] Running as: Array
+(
+    [name] => stuchl4n3knet
+    [passwd] => x
+    [uid] => 196519
+    [gid] => 196519
+    [gecos] => stuchl4n3k.net
+    [dir] => /www/doc/stuchl4n3k.net
+    [shell] => /bin/false
+)
+
+[+] Script owner: Array
+(
+    [name] => stuchl4n3knet
+    [passwd] => x
+    [uid] => 196519
+    [gid] => 196519
+    [gecos] => stuchl4n3k.net
+    [dir] => /www/doc/stuchl4n3k.net
+    [shell] => /bin/false
+)
+
+
+
+[+] Oh no. This looks bad :( File owner == Process owner
+

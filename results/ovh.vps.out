@@ -1,0 +1,67 @@
+[+] Running PHP 7.0.19-1 (fpm-fcgi) on Array
+(
+    [sysname] => Linux
+    [nodename] => vps399962
+    [release] => 4.9.0-3-amd64
+    [version] => #1 SMP Debian 4.9.30-2+deb9u5 (2017-09-19)
+    [machine] => x86_64
+    [domainname] => (none)
+)
+
+
+[+] Let's check some functions first:
+[+] Is 'chmod' available? T
+[+] Is 'chown' available? T
+[+] Is 'eval' available? F
+[+] Is 'assert' available? T
+[+] Is 'exec' available? T
+[+] Is 'putenv' available? T
+[+] Is 'passthru' available? T
+[+] Is 'system' available? T
+[+] Is 'shell_exec' available? T
+[+] Is 'popen' available? T
+[+] Is 'proc_open' available? T
+[+] Is 'pcntl_exec' available? F
+[+] Is 'fstat' available? T
+
+[+] Script permissions: 0
+
+[+] Open basedir: ''
+
+[+] Starting server process owner detection:
+[+] Running as: Array
+(
+    [name] => nginx
+    [passwd] => x
+    [uid] => 108
+    [gid] => 112
+    [gecos] => nginx user,,,
+    [dir] => /nonexistent
+    [shell] => /bin/false
+)
+
+[+] GID: Array
+(
+    [name] => munin
+    [passwd] => x
+    [uid] => 112
+    [gid] => 114
+    [gecos] => munin application user,,,
+    [dir] => /var/lib/munin
+    [shell] => /bin/false
+)
+
+[+] Script owner: Array
+(
+    [name] => root
+    [passwd] => x
+    [uid] => 0
+    [gid] => 0
+    [gecos] => root
+    [dir] => /root
+    [shell] => /bin/bash
+)
+
+
+
+[+] Test passed.

@@ -1,0 +1,64 @@
+[+] Running PHP 5.6.36-pl0-gentoo (apache2handler) on Array
+(
+    [sysname] => Linux
+    [nodename] => stuchl4n3k
+    [release] => 2.6.32-042stab127.2
+    [version] => #1 SMP Thu Jan 4 16:41:44 MSK 2018
+    [machine] => i686
+    [domainname] => (none)
+)
+
+
+[+] Let's check some functions first:
+[+] Is 'chmod' available? T
+[+] Is 'chown' available? T
+[+] Is 'chgrp' available? T
+[+] Is 'eval' available? F
+[+] Is 'assert' available? T
+[+] Is 'exec' available? T
+[+] Is 'putenv' available? T
+[+] Is 'passthru' available? T
+[+] Is 'system' available? T
+[+] Is 'shell_exec' available? T
+[+] Is 'popen' available? T
+[+] Is 'proc_open' available? T
+[+] Is 'pcntl_exec' available? F
+[+] Is 'fstat' available? T
+
+[+] Script permissions: 0664
+
+[+] Open basedir: '/mnt/data/accounts/n/stuchl4n3k/data/www/stuchl4n3k.net:/tmp/uploads:/www/sqluploads'
+
+[+] Open basedir permissions:
+[+] '/mnt/data/accounts/n/stuchl4n3k/data/www/stuchl4n3k.net'	81	0755
+[+] '/tmp/uploads'	81	0700
+[+] '/www/sqluploads'	81	0700
+
+[+] Starting server process owner detection:
+[+] Using POSIX functions to compare file and process owner.
+[+] Running as: Array
+(
+    [name] => user
+    [passwd] => x
+    [uid] => 81
+    [gid] => 81
+    [gecos] => Savana user account
+    [dir] => /container/home
+    [shell] => /bin/bash
+)
+
+[+] Script owner: Array
+(
+    [name] => user
+    [passwd] => x
+    [uid] => 81
+    [gid] => 81
+    [gecos] => Savana user account
+    [dir] => /container/home
+    [shell] => /bin/bash
+)
+
+
+
+[+] Oh no. This looks bad :( File owner == Process owner
+

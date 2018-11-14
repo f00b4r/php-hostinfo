@@ -1,0 +1,40 @@
+[+] Running PHP 7.1.23 (cgi-fcgi) on ???
+
+[+] Let's check some functions first:
+[+] Is 'chmod' available? T
+[+] Is 'chown' available? T
+[+] Is 'chgrp' available? T
+[+] Is 'eval' available? F
+[+] Is 'assert' available? T
+[+] Is 'exec' available? F
+[+] Is 'putenv' available? F
+[+] Is 'passthru' available? F
+[+] Is 'system' available? F
+[+] Is 'shell_exec' available? F
+[+] Is 'popen' available? F
+[+] Is 'proc_open' available? F
+[+] Is 'pcntl_exec' available? T
+[+] Is 'fstat' available? T
+
+[+] Script permissions: 0664
+
+[+] Open basedir: '/home/www/stuchl4n3k.net'
+
+[+] Open basedir permissions:
+[+] '/home/www/stuchl4n3k.net'	16993	0550
+[+] '/home/www/stuchl4n3k.net/.cagefs'	16993	0771
+[+] '/home/www/stuchl4n3k.net/.cl.selector'	16993	0755
+[+] '/home/www/stuchl4n3k.net/backups'	16993	0550
+[+] '/home/www/stuchl4n3k.net/logs'	16993	0550
+[+] '/home/www/stuchl4n3k.net/secret'	16993	0750
+[+] '/home/www/stuchl4n3k.net/ssl'	16993	0750
+[+] '/home/www/stuchl4n3k.net/sslsubdomains'	16993	0750
+[+] '/home/www/stuchl4n3k.net/subdomains'	16993	0750
+[+] '/home/www/stuchl4n3k.net/tmp'	16993	0750
+[+] '/home/www/stuchl4n3k.net/www'	16993	0750
+
+[+] Starting server process owner detection:
+[+] POSIX functions are not available -> falling back to a chmod test.
+
+[+] Oh no. This looks bad :( File owner == Process owner
+

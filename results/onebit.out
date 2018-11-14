@@ -1,0 +1,49 @@
+[+] Running PHP 7.2.11 (cgi-fcgi) on ???
+
+[+] Let's check some functions first:
+[+] Is 'chmod' available? T
+[+] Is 'chown' available? T
+[+] Is 'chgrp' available? T
+[+] Is 'eval' available? F
+[+] Is 'assert' available? T
+[+] Is 'exec' available? F
+[+] Is 'putenv' available? T
+[+] Is 'passthru' available? F
+[+] Is 'system' available? F
+[+] Is 'shell_exec' available? F
+[+] Is 'popen' available? F
+[+] Is 'proc_open' available? F
+[+] Is 'pcntl_exec' available? F
+[+] Is 'fstat' available? T
+
+[+] Script permissions: 0755
+
+[+] Open basedir: '/hosting/www/stuchl4n3k.net/:/hosting/public/:/tmp/:/hosting/session/stuchl4n3k.net/'
+
+[+] Open basedir permissions:
+[+] '/hosting/www/stuchl4n3k.net'	50362	0710
+[+] '/hosting/www/stuchl4n3k.net/_'	50362	0755
+[+] '/hosting/www/stuchl4n3k.net/www'	50362	0755
+[+] '/tmp'	0	1777
+[+] '/tmp/.ICE-unix'	0	1777
+[+] '/tmp/.Test-unix'	0	1777
+[+] '/tmp/.X11-unix'	0	1777
+[+] '/tmp/.XIM-unix'	0	1777
+[+] '/tmp/.font-unix'	0	1777
+[+] '/tmp/5bd8ed1796e90'	49940	0755
+[+] '/tmp/5bd8edb6a7000'	49940	0755
+[+] '/tmp/dehydrated-VNNCik'	1001	0600
+[+] '/tmp/dehydrated-ckP7XA'	1001	0600
+[+] '/tmp/dehydrated-kL8iTD'	1001	0600
+[+] '/tmp/filemanager.log'	50036	0644
+[+] '/tmp/isense_nitropack'	50312	0644
+[+] '/tmp/php'	0	0777
+[+] '/tmp/xim_id_2DP6iTn'	49970	0600
+[+] '/tmp/xim_id_2WneBz2'	49970	0600
+[+] '/tmp/xim_id_2cN2fdJ'	49970	0600
+[+] '/hosting/session/stuchl4n3k.net'	50362	0700
+
+[+] Starting server process owner detection:
+[+] POSIX functions are not available -> falling back to a chmod test.
+
+[+] Oh no. This looks bad :( File owner == Process owner

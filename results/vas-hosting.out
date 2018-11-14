@@ -1,0 +1,41 @@
+[+] Running PHP 7.0.30-2+0~20180714182316.1+jessie~1.gbpa1e59f (fpm-fcgi) on ???
+
+[+] Let's check some functions first:
+[+] Is 'chmod' available? T
+[+] Is 'chown' available? T
+[+] Is 'eval' available? F
+[+] Is 'assert' available? T
+[+] Is 'exec' available? F
+[+] Is 'putenv' available? F
+[+] Is 'passthru' available? F
+[+] Is 'system' available? F
+[+] Is 'shell_exec' available? F
+[+] Is 'popen' available? F
+[+] Is 'proc_open' available? F
+[+] Is 'pcntl_exec' available? F
+[+] Is 'fstat' available? T
+
+[+] Script permissions: 0664
+
+[+] Open basedir: '/www/hosting/stuchl4n3k.net:/www/error-pages'
+
+[+] Open basedir permissions:
+[+] '/www/hosting/stuchl4n3k.net'	33	0755
+[+] '/www/hosting/stuchl4n3k.net/_'	33	0755
+[+] '/www/hosting/stuchl4n3k.net/stats'	33	0755
+[+] '/www/hosting/stuchl4n3k.net/tmp'	33	0755
+[+] '/www/hosting/stuchl4n3k.net/www'	33	0755
+[+] '/www/error-pages'	33	0755
+[+] '/www/error-pages/.htaccess'	33	0644
+[+] '/www/error-pages/400.php'	33	0644
+[+] '/www/error-pages/401.php'	33	0644
+[+] '/www/error-pages/403.php'	33	0644
+[+] '/www/error-pages/404.php'	33	0644
+[+] '/www/error-pages/408.php'	33	0644
+[+] '/www/error-pages/500.php'	33	0644
+[+] '/www/error-pages/blokace'	0	0755
+
+[+] Starting server process owner detection:
+[+] POSIX functions are not available -> falling back to write test.
+
+[+] Oh no. This looks bad :( File owner == Process owner

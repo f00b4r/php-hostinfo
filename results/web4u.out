@@ -1,0 +1,40 @@
+[+] Running PHP 7.2.10 (apache2handler) on ???
+
+[+] Let's check some functions first:
+[+] Is 'chmod' available? T
+[+] Is 'chown' available? T
+[+] Is 'chgrp' available? T
+[+] Is 'eval' available? F
+[+] Is 'assert' available? T
+[+] Is 'exec' available? F
+[+] Is 'putenv' available? T
+[+] Is 'passthru' available? F
+[+] Is 'system' available? F
+[+] Is 'shell_exec' available? F
+[+] Is 'popen' available? F
+[+] Is 'proc_open' available? F
+[+] Is 'pcntl_exec' available? F
+[+] Is 'fstat' available? T
+
+[+] Script permissions: 0664
+
+[+] Open basedir: '/data/stuchl4n/:/data2/stuchl4n/:/data3/stuchl4n/:/stor1/stuchl4n/:/stor2/stuchl4n/:/data5/stuchl4n/:/data6/stuchl4n/:/data16/stuchl4n/:/data17/stuchl4n/:/fs/tmp_webhosting:/data20/stuchl4n/:/data21/stuchl4n/:/data22/stuchl4n/:/data23/stuchl4n/:/data24/stuchl4n/:/data25/stuchl4n/:/data26/stuchl4n/:/data27/stuchl4n/:/data28/stuchl4n/:/data29/stuchl4n/:/data30/stuchl4n/:/data31/stuchl4n/:/data32/stuchl4n/:/data33/stuchl4n/:/data34/stuchl4n/:/data35/stuchl4n/'
+
+[+] Open basedir permissions:
+[+] '/data/stuchl4n'	0	0755
+[+] '/data/stuchl4n/html'	99	0775
+[+] '/data/stuchl4n/logs'	0	0755
+[+] '/data/stuchl4n/sessions'	99	0755
+[+] '/data16/stuchl4n'	0	0755
+[+] '/data16/stuchl4n/html'	99	0775
+[+] '/data16/stuchl4n/logs'	0	0755
+[+] '/data16/stuchl4n/sessions'	99	0755
+[+] '/data31/stuchl4n'	0	0755
+[+] '/data31/stuchl4n/html'	99	0775
+[+] '/data31/stuchl4n/logs'	0	0755
+[+] '/data31/stuchl4n/sessions'	99	0755
+
+[+] Starting server process owner detection:
+[+] POSIX functions are not available -> falling back to a chmod test.
+
+[+] Oh no. This looks bad :( File owner == Process owner

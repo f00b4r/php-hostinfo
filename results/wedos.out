@@ -1,0 +1,33 @@
+[+] Running PHP 7.0.19 (fpm-fcgi) on ???
+
+[+] Let's check some functions first:
+[+] Is 'chmod' available? T
+[+] Is 'chown' available? T
+[+] Is 'chgrp' available? T
+[+] Is 'eval' available? F
+[+] Is 'assert' available? T
+[+] Is 'exec' available? F
+[+] Is 'putenv' available? F
+[+] Is 'passthru' available? F
+[+] Is 'system' available? F
+[+] Is 'shell_exec' available? F
+[+] Is 'popen' available? F
+[+] Is 'proc_open' available? F
+[+] Is 'pcntl_exec' available? F
+[+] Is 'fstat' available? T
+
+[+] Script permissions: 0664
+
+[+] Open basedir: '/data/web/virtuals/205937/virtual'
+
+[+] Open basedir permissions:
+[+] '/data/web/virtuals/205937/virtual'	215937	6750
+[+] '/data/web/virtuals/205937/virtual/session'	215937	6750
+[+] '/data/web/virtuals/205937/virtual/tmp'	215937	6750
+[+] '/data/web/virtuals/205937/virtual/www'	215937	6750
+
+[+] Starting server process owner detection:
+[+] POSIX functions are not available -> falling back to a chmod test.
+
+[+] Oh no. This looks bad :( File owner == Process owner
+

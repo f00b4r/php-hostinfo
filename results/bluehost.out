@@ -1,0 +1,70 @@
+[+] Running PHP 7.2.11 (cgi-fcgi) on Array
+(
+    [sysname] => Linux
+    [nodename] => box5703.bluehost.com
+    [release] => 4.14.72-113.ELK.el7.x86_64
+    [version] => #1 SMP Thu Sep 27 14:45:14 CDT 2018
+    [machine] => x86_64
+    [domainname] => (none)
+)
+
+
+[+] Let's check some functions first:
+[+] Is 'chmod' available? T
+[+] Is 'chown' available? T
+[+] Is 'chgrp' available? T
+[+] Is 'eval' available? F
+[+] Is 'assert' available? T
+[+] Is 'exec' available? T
+[+] Is 'putenv' available? T
+[+] Is 'passthru' available? T
+[+] Is 'system' available? T
+[+] Is 'shell_exec' available? T
+[+] Is 'popen' available? T
+[+] Is 'proc_open' available? T
+[+] Is 'pcntl_exec' available? T
+[+] Is 'fstat' available? T
+
+[+] Script permissions: 0644
+
+[+] Open basedir: ''
+
+[+] Starting server process owner detection:
+[+] Using POSIX functions to compare file and process owner.
+[+] Running as: Array
+(
+    [name] => stuchlfo
+    [passwd] => x
+    [uid] => 1674
+    [gid] => 1676
+    [gecos] => 
+    [dir] => /home3/stuchlfo
+    [shell] => /usr/local/cpanel/bin/noshell
+)
+
+[+] GID: Array
+(
+    [name] => thoxaytw
+    [passwd] => x
+    [uid] => 1676
+    [gid] => 1678
+    [gecos] => 
+    [dir] => /home3/thoxaytw
+    [shell] => /usr/local/cpanel/bin/noshell
+)
+
+[+] Script owner: Array
+(
+    [name] => stuchlfo
+    [passwd] => x
+    [uid] => 1674
+    [gid] => 1676
+    [gecos] => 
+    [dir] => /home3/stuchlfo
+    [shell] => /usr/local/cpanel/bin/noshell
+)
+
+
+
+[+] Oh no. This looks bad :( File owner == Process owner
+
