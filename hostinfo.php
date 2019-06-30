@@ -55,8 +55,7 @@ function can_write_to($dir) {
         debugf("Dir '%s' (ugo %s) IS writable by webserver.", $dir, fperms($dir));
 
         if (!unlink($test_file)) {
-            printf("[-] File '%s' could not be deleted. Please remove it manually.", $test_file);
-            exit(1);
+            errf("File '%s' could not be deleted. Please remove it manually.", $test_file);
         } else {
             debugf("Test file '%s' was removed.", $test_file);
         }
